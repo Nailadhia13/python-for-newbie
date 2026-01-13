@@ -1,0 +1,13 @@
+nama = input("Masukkan Nama Anda:")
+prodi = input("Prodi Anda:")
+umur = int(input("Berapa Umur Anda:"))
+tinggi = float(input("Berapa Tinggi Anda (dalam cm):"))
+hobi = input("Hobi Anda Apa:")
+
+print("========PROFIL MAHASISWA========")
+print("Nama: ", nama)
+print("Prodi: ", prodi)
+print("Umur: ", umur, "tahun")
+print("Tinggi: ", tinggi, "cm")
+print("Hobi: ", hobi)
+print("Halo", nama, ", Semangat Kuliahnya!!!")
