@@ -23,3 +23,32 @@ print('aaa' == 'aaa')  # output: true
 print('aaa' == 'bbb')  # output: false
 print('aaa' != 'aaa')  # output: false
 print('aaa' != 'bbb')  # output: true
+
+# OPERATOR IS DAN IN
+a = 1
+b = 1.0
+print(a == b)  # output : true
+print(a is b)  # output : false
+"""output
+Baris ketiga menggunakan operator == untuk memeriksa apakah kedua nilai tersebut sama. 
+Karena kedua nilai sama, sehingga hasilnya adalah True.
+Baris keempat memeriksa apakah kedua objek itu sama. 
+Karena a adalah bilangan integer sedangkan b adalah bilangan float, kedua objek tidak sama.
+Dengan kata lain, mereka disimpan dalam memori yang berbeda dan oleh karena itu, hasilnya adalah False."""
+
+"""Operator in memeriksa untuk melihat apakah kedua string cocok sebagian.
+Operator in sering digunakan untuk menentukan apakah ada karakter yang cocok di dalam string,
+apabila terdapat kecocokan maka akan mengembalikan nilai True dan jika tidak akan mengembalikan nilai False."""
+
+print('aaa' in 'aaa-bbb-ccc')  # output : true
+print('bbb' in 'aaa-bbb-ccc')  # output : true
+print('ddd' in 'aaa-bbb-ccc')  # output : false
+
+# LOGICAL OPERATORS
+"""Terdapat 3 logical operator yang sering digunakan pada Python yaitu and, or, dan not."""
+x = True
+y = False
+print(x and y)  # output: false
+print(x or y)  # output: true
+print(not x)  # output: false
+print(not y)  # output: true
